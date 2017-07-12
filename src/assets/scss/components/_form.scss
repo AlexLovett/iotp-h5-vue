@@ -1,0 +1,28 @@
+// 表单组
+// -------------------------------------------
+.form-group {
+  @include border(bottom);
+  @include border(top);
+  @extend %padding-left-m;
+  background-color: $white;
+
+  .form-field {
+    color: $font-primary;
+    @include border(bottom);
+  }
+
+  .form-field:last-child{
+    border-bottom: none;
+  }
+}
+
+// 输入框
+// -------------------------------------------
+
+
+
+// 复选框
+// -------------------------------------------
+
+
+

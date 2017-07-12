@@ -1,0 +1,5 @@
+.card {
+  @extend %margin;
+  @include box-shadow(0px, 2px, 5px, 0.2);
+  background-color: $white;
+}

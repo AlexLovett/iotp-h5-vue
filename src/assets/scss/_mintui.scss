@@ -1,0 +1,38 @@
+// -------------------------------------------
+// mint-ui覆写
+
+.mint-cell-wrapper {
+  font-size: $font-size;
+  align-items: center;
+  background-image: none;
+}
+
+.mint-cell-wrapper{
+  padding-left: 0;
+  padding-right: rem(10px);
+}
+
+.mint-cell, .mint-cell-wrapper{
+  background-image: none !important;
+}
+
+.mint-checklist-title,
+.mint-radiolist-title{
+  display: none;
+}
+
+.mint-checklist-label,
+.mint-radiolist-label{
+  padding-left: 0;
+  @include ripple(darken($gray-light, 20%));
+}
+
+.mint-checkbox-core::after {
+  top: rem(4px);
+  left: rem(7px);
+}
+
+
+.v-modal {
+  @include opacity();
+}
